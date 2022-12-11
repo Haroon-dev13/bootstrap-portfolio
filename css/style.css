@@ -50,6 +50,10 @@ p {
   margin-bottom: 20px;
 }
 
+.navbar-color{
+    background-color: #343A40;
+}
+
 .navbar-brand{
     font-size: xx-large;
 }
@@ -87,8 +91,8 @@ p {
 }
 .section-heading:hover{
     cursor: pointer;
-    color: blue;
-    border-bottom: 3px solid blue;
+    color: rgb(23, 235, 235);
+    border-bottom: 3px solid rgb(23, 235, 235);
     transition: all 0.5s ease-in-out 0s
 
 }
@@ -109,7 +113,11 @@ p {
 }
 
 .card{
-    border: 3px solid blue;
+    border: 3px solid #343A40;
+    margin: 10px;
+}
+.card:hover{
+    border: 3px solid rgb(23, 235, 235);
     margin: 10px;
 }
 .card img{
