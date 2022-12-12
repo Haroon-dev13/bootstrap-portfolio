@@ -154,6 +154,10 @@ p {
     }
     .contact{
         flex-direction: column;
+        justify-content: left !important;
+        align-items: left !important;
+        /* align-items: left !important; */
+
     }
     .contact li{
         padding: 10px;
